@@ -1,0 +1,108 @@
+.boxes {
+    background: #2C2C2C;
+    color: #F4DDE1;
+    border: 2px solid #a8a7a7;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+}
+
+.boxes a {
+    font-family: 'Segoe UI', system-ui, Arial, sans-serif;
+    color: #F4DDE1;
+    text-decoration: none;/* takes off underline */
+    /*font-weight: bold;*/
+    font-size: 18px;
+}
+
+.smallbox {
+    background: #C49AA6;
+    color: #2C2C2C;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.videostyles {
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    max-height: 200px;
+    border-color: #9A6C77;
+}
+
+.footerLetters {
+    font-family: 'Segoe UI', system-ui, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.listStyle {
+    font-size: 14px;
+    margin: 4px 8px 8px 0;
+    background: #F4DDE1;
+    border: 2px solid #2C2C2C;
+}
+
+.pinakasStyle {
+    width: 90%;
+    color: #F4DDE1;
+    border-color: #9A6C77;
+}
+
+.pinakasStyle,
+.pinakasStyle th,
+.pinakasStyle td,
+.pinakasStyle thead th,
+.pinakasStyle tbody+tbody {
+    border-color: #9A6C77;
+}
+
+
+.linkStyle a:link {
+    color: #F4DDE1;
+}
+
+.linkStyle a:visited {
+    color: #F4DDE1;
+}
+
+.linkStyle a:hover {
+    text-decoration: underline;
+}
+
+.linkStyle a:active {
+    color: #9A6C77;
+}
+
+.asidePalette .card {
+    border-color: #9A6C77;
+}
+
+.asidePalette .card-header {
+    background: #C49AA6;
+    color: #2C2C2C;
+    border-bottom-color: #C49AA6;
+    text-emphasis: bolder;
+}
+
+.asidePalette .list-group-item {
+    border-color: #C49AA6;
+    color: #2C2C2C;
+    text-align: center;
+
+}
+
+.asideCenter {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+mark {
+  background: #C49AA6; 
+  color: #2C2C2C;      
+  border-radius: 3px;
+  padding: 2px;
+}
